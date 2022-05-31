@@ -12,7 +12,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
   <BrowserRouter>
-    <Routes>
+    <Routes basename={ process.env.PUBLIC_URL }>
       <Route path="/" element={<Home/>} />
       <Route path="exp" element={<Exp/>} />
       <Route path="life" element={<Life/>} />
