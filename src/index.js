@@ -10,10 +10,8 @@ import Photography from './Layout/Photography/index.js';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
-const PUBLIC_URL = "/MyWebsite";
-
 root.render(
-  <BrowserRouter basename={ process.env.PUBLIC_URL }>
+  <BrowserRouter>
     <Routes>
       <Route path="/" element={<Home/>} />
       <Route path="exp" element={<Exp/>} />
