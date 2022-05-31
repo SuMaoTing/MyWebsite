@@ -1,0 +1,13 @@
+.Sidebar{
+    display:flex;
+    position: fixed;
+    flex-direction:column;
+    margin: 20px;
+}
+.Sidebar p{
+    margin: 10px auto;
+    color:#aaa;
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-style: italic;
+}

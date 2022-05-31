@@ -1,0 +1,16 @@
+.BookMark{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 15px;
+}
+.BookMark a{
+    font-family: STHeiti, SimHei, sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+}
+.BookMark a:hover{
+    background-color: aquamarine;
+}

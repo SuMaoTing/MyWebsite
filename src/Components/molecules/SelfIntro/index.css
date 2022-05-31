@@ -1,0 +1,35 @@
+.SelfIntro{
+    position:absolute;
+    left: 300px;
+    margin-right: 20px;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+.SelfIntro a{
+    color: #000;
+}
+.icons{
+    margin: 30px;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    font-size: 30px;
+}
+.icons a{
+    color: #000;
+}
+.icons #facebook:hover{
+    color:rgb(52, 132, 229);
+}
+.icons #instagram:hover{
+    color:rgb(197,43,69);
+}
+@keyframes big{
+    0%{transform:scale(1.5,1.5);}
+    25%{transform:scale(0.66,0.66)}
+    50%{transform:scale(1.5,1.5);}
+    100%{transform:scale(0.66,0.66);}
+}
+.icons #github:hover{
+    animation: big 3s infinite alternate;
+}
