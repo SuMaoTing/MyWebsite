@@ -1,13 +1,14 @@
 import React from 'react';
 import './index.css';
+import { Link } from 'react-router-dom';
 
 const BookMark = () =>(
         <div className="BookMark">
-            <a href="/exp">🏅 學經歷</a>
-            <a href="/life">🧩 生活雜記</a>
-            <a href="/photography">📸 攝影作品</a>
-            <a href="/website_exp">🖥 網站作品</a>
-            <a href="/plan">📜 網站企劃</a>
+            <Link to="/exp">🏅 學經歷</Link>
+            <Link to="/life">🧩 生活雜記</Link>
+            <Link to="/photography">📸 攝影作品</Link>
+            <Link to="/website_exp">🖥 網站作品</Link>
+            <Link to="/plan">📜 網站企劃</Link>
         </div>
 )
 

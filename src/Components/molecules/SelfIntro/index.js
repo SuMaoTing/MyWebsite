@@ -19,7 +19,7 @@ const SelfIntro = () => {
             <p>為自己的生活做些紀錄，讓值得回憶的免於消逝</p>
             <p>或許在這次作業後這個網站會持續擴充、接上後端，甚至是有個專屬域名</p>
             <p>謝謝老師提供了這麼好的動機，讓我得以把我的想法藉由這次機會實現</p>
-            <p>本網站係由React.js框架寫成，專案架構參考<a href="https://http://bradfrost.com/blog/post/atomic-web-design/">Atom design</a></p>
+            <p>本網站係由<a href="https://zh-hant.reactjs.org">React.js</a>框架寫成，專案架構參考<a href="https://bradfrost.com/blog/post/atomic-web-design/">Atom design</a></p>
             <p>本網站原始碼將在2022年7-8月於我的Github保持公開，專案名稱為MyWebsite</p>
             <div className="icons">
                 <a href="https://www.facebook.com/ethancahgvsjb/" id="facebook"><FontAwesomeIcon icon={brands('facebook-square')} /></a>

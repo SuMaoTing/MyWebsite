@@ -11,8 +11,8 @@ import Photography from './Layout/Photography/index.js';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
-  <BrowserRouter>
-    <Routes basename={ process.env.PUBLIC_URL }>
+  <BrowserRouter basename={ process.env.PUBLIC_URL }>
+    <Routes >
       <Route path="/" element={<Home/>} />
       <Route path="exp" element={<Exp/>} />
       <Route path="life" element={<Life/>} />
