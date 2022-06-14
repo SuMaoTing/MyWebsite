@@ -7,6 +7,10 @@ const Home = () => (
   <div className="Home">
     <Sidebar/>
     <SelfIntro/>
+    <div id="pr" className="prodiv"
+      onMouseOver={()=>{document.getElementById("pr").style.opacity = '1'}}
+      onMouseOut={()=>{document.getElementById("pr").style.opacity = '0'}}
+      onClick={()=>{window.open('https://sumaoting.github.io/MyWebsite/proposal/proposal.html', '_blank')}}>網站企劃書</div>
   </div>
 )
 
