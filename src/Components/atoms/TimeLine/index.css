@@ -2,7 +2,7 @@
     list-style: none;
     position: relative;
     width:3px;
-    padding-bottom: 100px;
+    padding-bottom: 200px;
     background:#aaa;
 }
 .TimeLine li::before{

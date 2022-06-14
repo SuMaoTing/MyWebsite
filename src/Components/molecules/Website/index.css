@@ -7,6 +7,16 @@
     height: 700px;
     display: flex;
     flex-direction: column;
+    overflow: scroll;
+}
+.Website h1, p{
+    font-family: sans-serif;
+}
+.text{
+    display: none;
+}
+.Website p{
+    font-weight: lighter;
 }
 .Website iframe{
     height: 100%;
