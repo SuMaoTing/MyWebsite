@@ -25,21 +25,22 @@
 /*設定圖片填充樣式＆圖片寬高設定*/
 .prevContainer{
     position: absolute;
-    z-index: 98;
+    z-index: 1;
     left:0;
     height:100%;
     width:7%;
 }
 /*左按鈕排版*/
 .prevContainer:hover{
-    background-color: aliceblue;
-    opacity: 0.65;
+    background-color: #aaa;
+    opacity: 0.3;
 }
 /*設定左按鈕被hover時的背景*/
 .prev{
     border-left: 2px solid;
     border-bottom: 2px solid;
-    z-index: 99;
+    color: #fff;
+    z-index: 2;
     position: absolute;
     top: 45%;
     left: 5px;
@@ -53,21 +54,22 @@
 /*以CSS畫箭頭＆設定圖層為最上*/
 .nextContainer{
     position: absolute;
-    z-index: 98;
+    z-index: 1;
     right:0;
     height:100%;
     width:7%;
 }
 /*右按鈕排版*/
 .nextContainer:hover{
-    background-color: #fff;
-    opacity: 0.8;
+    background-color: #aaa;
+    opacity: 0.3;
 }
 /*設定右按鈕被hover時的背景*/
 .next{
     border-left: 2px solid;
     border-bottom: 2px solid;
-    z-index: 99;
+    color: #fff;
+    z-index: 2;
     position: absolute;
     top: 45%;
     right: 5px;
@@ -85,6 +87,7 @@
     bottom: 10px;
     left: 30%;
 }
+/*導航點排版*/
 .dotContainer{
     position: relative;
     width: 30px;
@@ -97,15 +100,45 @@
     justify-content: center;
     align-items: center;
 }
+/*建立導航點白色部分＆灰色部分置中*/
 .dotContainer::before{
     content: " ";
     display: block;
-    width: 70%;
+    width: 80%;
     height: 70%;
     background-color: #999;
     border-radius: 3px;
     opacity: 0;
 }
+/*設定導航點灰色部分*/
 .dotContainer-active::before{
     opacity: 1;
 }
+/*設定顯示單個導航點*/
+.discription{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+    height: 200px;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+/*圖片說明排版*/
+.discription p{
+    text-align: center;
+    font-size: 25px;
+    color: #fff;
+}
+/*圖片說明字體設定*/
+.discription-active{
+    z-index: 4;
+    background-image: linear-gradient(rgba(50, 50, 50, 1), rgba(255, 255, 255, 0));
+}
+/*圖片說明背景設定＆提升圖層*/
+.discription-active:hover{
+    opacity: 1;
+}
+/*圖片說明在滑鼠放置時顯示設定*/

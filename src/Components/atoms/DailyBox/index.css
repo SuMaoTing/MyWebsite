@@ -1,5 +1,34 @@
 .DailyBox{
     display: flex;
     flex-direction: row;
-    border: 1px solid;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.DailyBox:hover{
+    background: #eee;
+}
+/*日常容器排版*/
+.DailyBox img{
+    height: 360px;
+    width: 360px;
+    object-fit: contain;
+}
+/*相片寬高設置*/
+.text-time{
+    height: 360px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+    overflow: scroll;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+.text-time p{
+    text-align: right;
+    font-weight: lighter;
+    font-size:12px;
+    color: #fff;
+}
+.text-time::-webkit-scrollbar {
+    display: none;
 }

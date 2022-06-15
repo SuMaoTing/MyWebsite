@@ -5,7 +5,10 @@ const DailyBox = (props) => {
     return(
         <div className="DailyBox">
             <img src={props.img} />
-            <p>{props.text}</p>
+            <div className="text-time">
+                {props.text}
+                <p>{props.time}</p>
+            </div>           
         </div>
     )
 }
