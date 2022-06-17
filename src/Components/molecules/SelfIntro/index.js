@@ -2,11 +2,15 @@ import React from 'react';
 import './index.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { brands } from '@fortawesome/fontawesome-svg-core/import.macro';
+import { Link } from 'react-router-dom';
 
 const SelfIntro = () => {
     return(
         <div className="SelfIntro">
-            <h1>自我介紹</h1>
+            <div className="titleContainer">
+                <h1>自我介紹</h1>
+                <Link to='/bookmark' className="Bars" />
+            </div>
             <p>嗨，我是EthanSu，輔大物理系學生一枚</p>
             <p>我的興趣廣泛，覺得有趣就學，平時喜歡慢跑、重訓，偶爾游泳</p>
             <p>也喜歡在閒來無事時鑽研電腦知識，我會C++、Python及一點點前端開發，未來希望能點滿fullStack技能樹，成為網頁開發者</p>

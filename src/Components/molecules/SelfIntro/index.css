@@ -39,3 +39,44 @@
     animation: big 3s infinite alternate;
 }
 /*設定各icon hover時之樣式*/
+.titleContainer{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+.Bars{
+    position:absolute;
+    top:35px;
+    right: 20px;
+    width: 30px;
+    height: 30px;
+    border-top: 1px solid #000;
+    display: none;
+}
+.Bars::before{
+    content: " ";
+    position: absolute;
+    border-top: 1px solid #000;
+    width: 30px;
+    height: 30px;
+    transform: translateY(10px);
+}
+.Bars::after{
+    content: " ";
+    position: absolute;
+    border-top: 1px solid #000;
+    width: 30px;
+    height: 30px;
+    transform: translateY(20px);
+}
+/*響應式導航列*/
+@media screen and (max-width:900px) {
+    .SelfIntro{
+        left: 0;
+        margin-left:20px;
+    }
+    .Bars{
+        display: block;
+    }
+}
+/*首頁響應式設計*/

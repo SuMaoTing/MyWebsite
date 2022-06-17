@@ -17,3 +17,10 @@
     padding-bottom: 30px;
 }
 /*避免兩時間軸重疊＆將末項線延長打造延續感*/
+@media screen and (max-width:900px) {
+    .Experience{
+        left: 0;
+        margin-left:20px;
+    } 
+}
+/*學經歷頁響應式設計*/

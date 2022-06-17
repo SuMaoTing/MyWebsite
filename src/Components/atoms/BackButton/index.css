@@ -1,3 +1,10 @@
+.BackButtonContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px;
+}
+/*導航容器排版*/
 .BackButton{
     content: " ";
     display: inline-block;
@@ -6,6 +13,36 @@
     border-bottom: 2px solid ;
     border-left: 2px solid ;
     transform: rotate(45deg);
-    margin: 10px;
 }
 /*以css畫箭頭*/
+.ModeBars{
+    position:absolute;
+    right: 20px;
+    width: 30px;
+    height: 30px;
+    border-top: 1px solid #000;
+    display: none;
+}
+.ModeBars::before{
+    content: " ";
+    position: absolute;
+    border-top: 1px solid #000;
+    width: 30px;
+    height: 30px;
+    transform: translateY(10px);
+}
+.ModeBars::after{
+    content: " ";
+    position: absolute;
+    border-top: 1px solid #000;
+    width: 30px;
+    height: 30px;
+    transform: translateY(20px);
+}
+/*響應式導航列*/
+@media screen and (max-width:900px){
+    .ModeBars{
+        display: block;
+    }
+}
+/*響應設定*/

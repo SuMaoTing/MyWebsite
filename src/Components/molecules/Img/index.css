@@ -5,3 +5,12 @@
     margin-top: 30px;
 }
 /*攝影作品容器排版*/
+@media screen and (max-width:900px) {
+    .Img{
+        width:100%;
+        height: 100%;
+        left: 0;
+        margin-left:20px;
+    } 
+}
+/*攝影作品頁響應式設計*/

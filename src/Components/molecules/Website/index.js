@@ -1,10 +1,13 @@
 import React from 'react';
 import './index.css';
-import BackButton from '../../atoms/BackButton/index.js';
+import { Link } from 'react-router-dom';
 
 const Website = () => (
     <div className="Website">
-        <BackButton/>
+        <div className="special">
+            <Link to="/" className="specialBackButton"></Link>
+            <Link to="/bookmark" className="specialModeBars"></Link>
+        </div>
         <h1>社團招生單頁式網站</h1>
         <div className="text">
             <p>當初因為疫情，我所參加社團的學校社團聯展改為線上辦理，因此幹部們規劃了一系列對應方案</p>

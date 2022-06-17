@@ -1,6 +1,7 @@
 .Website{
     position:absolute;
-    left: 300px;
+    left: 0;
+    margin-left: 20px;
     margin-right: 20px;
     margin-top:20px;
     width: 78%;
@@ -15,9 +16,18 @@
 }
 /*標題＆說明字體設置*/
 .text{
-    display: none;
+    position: absolute;
+    top: 119px;
+    opacity: 0;
+    color: white;
+    padding: 5px;
 }
-/**/
+/*說明欄字色設定*/
+.text:hover{
+    opacity: 1;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.3));
+}
+/*設定hover時顯示說明*/
 .Website p{
     font-weight: lighter;
 }
@@ -28,3 +38,40 @@
     border:none;
 }
 /*內置框架排版*/
+.specialBackButton{
+    content: " ";
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    border-bottom: 2px solid ;
+    border-left: 2px solid ;
+    transform: rotate(45deg);
+    margin-left: 10px;
+    margin-top: 10px;
+}
+/*以css畫箭頭*/
+.specialModeBars{
+    position:absolute;
+    right: 20px;
+    width: 30px;
+    height: 30px;
+    border-top: 1px solid #000;
+    margin-top: 10px;
+}
+.specialModeBars::before{
+    content: " ";
+    position: absolute;
+    border-top: 1px solid #000;
+    width: 30px;
+    height: 30px;
+    transform: translateY(10px);
+}
+.specialModeBars::after{
+    content: " ";
+    position: absolute;
+    border-top: 1px solid #000;
+    width: 30px;
+    height: 30px;
+    transform: translateY(20px);
+}
+/*導航列*/

@@ -7,6 +7,7 @@ import Exp from './Layout/Exp/index.js';
 import WebsiteExp from './Layout/WebsiteExp/index.js';
 import Life from './Layout/Life/index.js';
 import Photography from './Layout/Photography/index.js';
+import Bookmark from './Components/molecules/BookMark';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -18,6 +19,7 @@ root.render(
       <Route path="life" element={<Life/>} />
       <Route path="photography" element={<Photography/>} />
       <Route path="website_exp" element={<WebsiteExp/>} />
+      <Route path="bookmark" element={<Bookmark/>} />
     </Routes>
   </BrowserRouter>
 );

@@ -5,7 +5,6 @@ import Website from '../../Components/molecules/Website';
 
 const WebsiteExp = () =>(
     <div className="WebsiteExp">
-        <Sidebar/>
         <Website/>
     </div>
 )
