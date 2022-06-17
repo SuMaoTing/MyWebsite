@@ -4,6 +4,7 @@
     flex-direction:column;
     margin: 20px;
 }
+/*側邊欄排版*/
 .Sidebar p{
     margin: 10px auto;
     color:#aaa;
@@ -11,3 +12,10 @@
     font-weight: lighter;
     font-style: italic;
 }
+/*側邊欄字體設置*/
+@media screen and (max-width:900px) {
+    .Sidebar{
+        display: none;
+    }
+}
+/*側邊欄響應式設定*/

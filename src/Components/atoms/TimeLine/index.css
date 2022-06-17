@@ -5,6 +5,7 @@
     padding-bottom: 200px;
     background:#aaa;
 }
+/*將列表之樣式去除＆css畫時間軸之部分設定*/
 .TimeLine li::before{
     content: " ";
     position: absolute;
@@ -16,12 +17,15 @@
     border-radius: 50%;
     background:inherit;
 }
+/*css畫時間軸*/
 .TimeLine li:last-child{
     padding-bottom: 0px;
 }
+/*將最後項之時間軸長度去除*/
 .TimeBox{
     margin-left: 10px;
     height: 0px;
     width: 150px;
     font-family: sans-serif;
 }
+/*時間軸容器排版＆字體設置*/

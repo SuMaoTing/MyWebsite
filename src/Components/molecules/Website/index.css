@@ -9,17 +9,22 @@
     flex-direction: column;
     overflow: scroll;
 }
+/*網站容器排版*/
 .Website h1, p{
     font-family: sans-serif;
 }
+/*標題＆說明字體設置*/
 .text{
     display: none;
 }
+/**/
 .Website p{
     font-weight: lighter;
 }
+/*說明之字粗設置*/
 .Website iframe{
     height: 100%;
     width: 100%;
     border:none;
 }
+/*內置框架排版*/

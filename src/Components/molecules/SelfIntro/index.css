@@ -5,9 +5,11 @@
     font-family: sans-serif;
     font-weight: lighter;
 }
+/*自介容器排版＆字體設置*/
 .SelfIntro a{
     color: #000;
 }
+/*超連結顏色設定*/
 .icons{
     margin: 30px;
     display: flex;
@@ -15,9 +17,11 @@
     justify-content: space-around;
     font-size: 30px;
 }
+/*社群媒體icon排版*/
 .icons a{
     color: #000;
 }
+/*社群媒體icon顏色設定*/
 .icons #facebook:hover{
     color:rgb(52, 132, 229);
 }
@@ -30,6 +34,8 @@
     50%{transform:scale(1.5,1.5);}
     100%{transform:scale(0.66,0.66);}
 }
+/*github icon hover時之動畫手刻*/
 .icons #github:hover{
     animation: big 3s infinite alternate;
 }
+/*設定各icon hover時之樣式*/

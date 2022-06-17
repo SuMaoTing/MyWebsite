@@ -23,12 +23,15 @@
     font-family: sans-serif;
     font-weight: lighter;
 }
+/*文字容器排版＆溢出時為捲動樣式*/
 .text-time p{
     text-align: right;
     font-weight: lighter;
     font-size:12px;
     color: #fff;
 }
+/*文字字體設置*/
 .text-time::-webkit-scrollbar {
     display: none;
 }
+/*設定捲軸不顯示*/

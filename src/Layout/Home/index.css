@@ -2,6 +2,7 @@
     display:flex;
     flex-direction:row;
 }
+/*主頁渲染頁面排版*/
 .prodiv{
     position:fixed;
     z-index: 99;
@@ -29,3 +30,4 @@
     from{transform:rotate(0deg);}
     to{transform:rotate(360deg);}
 }
+/*老師要求之內置企劃書*/

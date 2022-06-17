@@ -4,6 +4,7 @@
     text-align: center;
     margin-top: 15px;
 }
+/*書籤容器排版*/
 .BookMark a{
     font-family: STHeiti, SimHei, sans-serif;
     font-size: 18px;
@@ -11,6 +12,8 @@
     color: black;
     margin: 10px;
 }
+/*書籤字體設置*/
 .BookMark a:hover{
     background-color: #bbb
 }
+/*設定hover時背景*/

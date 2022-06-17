@@ -6,11 +6,14 @@
     font-family: sans-serif;
     font-weight:lighter;
 }
-.UpperContainer{
+/*學經歷容器排版*/
+.TimelineContainer{
     display: flex;
     flex-direction:row;
 }
-.UpperContainer div{
+/*時間軸容器排版*/
+.TimelineContainer div{
     padding-right: 100px;
     padding-bottom: 30px;
 }
+/*避免兩時間軸重疊＆將末項線延長打造延續感*/

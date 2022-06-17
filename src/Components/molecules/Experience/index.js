@@ -31,7 +31,7 @@ const Experience = () =>{
     return(
         <div className="Experience">
             <BackButton/>
-            <div className="UpperContainer">
+            <div className="TimelineContainer">
                 <div>
                     <h1>學歷</h1>
                     <TimeLine text={LearningExperience}/>
